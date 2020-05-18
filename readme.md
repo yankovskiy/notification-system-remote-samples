@@ -1,7 +1,7 @@
 Примеры кода для выполнения команд из системы уведомлений https://github.com/yankovskiy/notification-system
 
 ### Примеры кода в комплекте
-1. [PowerShell](https://github.com/yankovskiy/notification-system-remote-samples/blob/master/powershell.js "PowerShell")
+1. [PowerShell](https://github.com/yankovskiy/notification-system-remote-samples/blob/master/powershell.ps1 "PowerShell")
 
 ### Примечание
 Далее в тексте:
