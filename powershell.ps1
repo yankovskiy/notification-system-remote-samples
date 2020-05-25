@@ -25,8 +25,8 @@ if ($json.ok) {
                 # уведомление бота о выполненной задаче
                 $body = @{ "_id" = $id }
                 $data = Invoke-WebRequest -Uri $completeUrl -Method POST -Body ($body|ConvertTo-Json) -ContentType "application/json"
+                
                 $postJson = ConvertFrom-Json -InputObject $data.Content
-
                 if ($postJson.ok) {
                     "Задача $id выполнена"
                 }
